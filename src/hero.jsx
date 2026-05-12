@@ -12,7 +12,7 @@ function Hero() {
         <motion.div
           initial={{ opacity: 0, x: -80 }}
           animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 1 }}
+          transition={{ duration: 1.5 }}
         >
           <p className="text-yellow-500 pb-2">HELLO, THIS IS</p>
           <h1 className="text-5xl md:text-6xl font-bold pb-1">YOGESH</h1>
@@ -60,7 +60,7 @@ function Hero() {
 
         <motion.div
           initial={{ opacity: 0, x: 80 }}
-          animate={{ opacity: 1.5, x: 0 }}
+          animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1.5 }}
         >
           <img
