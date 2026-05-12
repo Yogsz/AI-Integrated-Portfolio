@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import YogeshImg from "./assets/Yogesh_Img.png";
+import YogeshImg from "../assets/Yogesh_Img.png";
 import { MdEmail } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
@@ -7,7 +7,7 @@ import { FaGithub } from "react-icons/fa";
 
 function Hero() {
   return (
-    <section className="min-h-screen bg-slate-900 text-white flex items-center justify-center px-6">
+    <section className="min-h-screen bg-slate-950 text-white flex items-center justify-center px-6">
       <div className="max-w-6xl w-full grid md:grid-cols-2 gap-10 items-center">
         <motion.div
           initial={{ opacity: 0, x: -80 }}

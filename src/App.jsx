@@ -1,8 +1,13 @@
 import React from "react"
-import Hero from "./hero"
+import Hero from "./components/hero"
+import Navbar from "./components/navbar"
 function App() {
   return (
-    <Hero/>
+    <div className="min-h-screen bg-slate-950">
+      <Navbar/>
+      <Hero/>
+    </div>
+    
   )
 }
 
